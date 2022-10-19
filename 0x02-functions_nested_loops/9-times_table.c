@@ -2,7 +2,6 @@
 
 /**
  * times_table - prints the 9 times table
- * Return: returns 0
  */
 
 void times_table(void)
@@ -17,6 +16,7 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
+
 			result = digit * mult;
 
 			if (result <= 9)
